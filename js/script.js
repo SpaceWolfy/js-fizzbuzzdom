@@ -6,7 +6,7 @@
 } */
 
 //Prima milestone:
-for (let i = 1; i <= 100; i++) 
+/* for (let i = 1; i <= 100; i++) 
 {
     if(i % 3 === 0 && i % 5 === 0) 
     {
@@ -19,6 +19,30 @@ for (let i = 1; i <= 100; i++)
         console.log('Buzz')
     } else 
     {
+        console.log(i)
+    }  
+} */
+
+//Seconda milestone: 
+const containerBoxes = document.querySelector('.container-boxes');
+
+for (let i = 1; i <= 100; i++) 
+{
+    if(i % 3 === 0 && i % 5 === 0) 
+    {
+        containerBoxes.innerHTML += '<div class="box box-red">FizzBuzz</div>'
+        console.log('FizzBuzz')
+    } else if(i % 3 === 0 ) 
+    {
+        containerBoxes.innerHTML += '<div class="box box-black">Fizz</div>'
+        console.log('Fizz')
+    } else if(i % 5 === 0) 
+    {
+        containerBoxes.innerHTML += '<div class="box box-black">Buzz</div>'
+        console.log('Buzz')
+    } else 
+    {
+        containerBoxes.innerHTML += `<div class="box box-black">${i}</div>`
         console.log(i)
     }  
 }
