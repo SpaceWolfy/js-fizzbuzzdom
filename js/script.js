@@ -23,8 +23,22 @@
     }  
 } */
 
-//Seconda milestone: 
+//Seconda milestone - Terza milestone: 
 const containerBoxes = document.querySelector('.container-boxes');
+
+/* 
+1) Inizializzato il ciclo for per let i=1, incremento il valore della suddetta variabile fino al raggiungimento del numero 100. 
+   - Nel caso in cui i sia divisibile sia per 3 che per 5, verrà creato un tag all'interno di container-boxes 
+     nell'html che andrà a mostrare 'FizzBuzz' dentro un box color crimson. 
+
+   - Nel caso in cui i sia divisibile soltanto per 3, verrà creato un tag all'interno di container-boxes 
+     nell'html che andrà a mostrare 'Fizz' dentro un box color aqua. 
+
+   - Nel caso in cui i sia divisibile soltanto per 5, verrà creato un tag all'interno di container-boxes 
+     nell'html che andrà a mostrare 'Buzz' dentro un box color giallo senape.
+
+   - Altrimenti verrà rappresentato il valore numerico della i all'interno di un box color cadetblue.
+*/
 
 for (let i = 1; i <= 100; i++) 
 {
