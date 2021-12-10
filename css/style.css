@@ -32,3 +32,15 @@ body {
     height: 130px;
     font-weight: 600;
 }
+
+.box-crimson {
+    background-color: crimson;
+}
+
+.box-tiffany {
+    background-color: aqua;
+}
+
+.box-yellow {
+    background-color: rgb(255, 217, 0);
+}
